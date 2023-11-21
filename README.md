@@ -1,4 +1,4 @@
-# Darkbrains
+# FitoStyle
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/Dark-brains/fitostyle)
 [![GitHub](https://img.shields.io/badge/GitHub-Releases-green)](https://github.com/Dark-brains/fitostyle/releases)
