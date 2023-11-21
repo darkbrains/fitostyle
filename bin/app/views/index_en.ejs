@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitostyle</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css"/>
+    <link rel="shortcut icon" type="image/png" href="/static/logo.webp"/>
+</head>
+<body>
+    <header>
+        <div class="language-selection">
+            <button onmouseover="showLanguageOptions()" onmouseout="hideLanguageOptions()">Language</button>
+            <div class="language-options" onmouseover="showLanguageOptions()" onmouseout="hideLanguageOptions()">
+              <button onclick="changeLanguage('ARM')">Հայ</button>
+              <button onclick="changeLanguage('RUS')">Рус</button>
+              <button onclick="changeLanguage('ENG')">Eng</button>
+            </div>
+        </div>         
+        <div id="header-left-db">FITOSTYLE</div>
+        <nav>
+            <ul>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#address">Address</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <div id="welcome-section">
+        <div id="welcome-section-text">
+            Welcome to Fitostyle
+        </div>
+        <div id="diagonal-slice"></div> 
+    </div>    
+    <main>
+        <section id="text-01" class="side-section">
+            <h2>Welcome</h2>
+            <p>Welcome to FitoStyle, your special place to enjoy natural drinks and healthy pastries in the heart of Armenia.</p>
+        </section>
+        <section id="text-02" class="side-section">
+            <h2>About us</h2>
+            <p>FitoStyle is not just a cafe, it is a place where every guest finds not only exquisite taste, but also inspiration for a healthy lifestyle. Made from herbs grown on the beautiful slopes of the Armenian Highlands, our teas, low-caffeine flavored coffees, and a variety of low-sugar baked goods are the perfect combination of taste and benefits for your body.</p>
+        </section>
+        <section id="text-03" class="side-section">
+            <h2>Taste and Wellness</h2>
+            <p>We strive to create not only a pleasant entertainment place, but also a center to support a healthy lifestyle. Here you will find not only the pleasure of taste, but also the opportunity to get acquainted with the useful properties of our products, as well as to participate in interesting events and master classes on healthy eating.</p>
+        </section>
+    </main>
+    <foreign>       
+        <section class="side-secondary-section">
+            <div id="side-secondary-section-main-1">
+                <p>
+                    Fitostyle
+                </p>
+                <div id="side-secondary-section-main-1-text">
+                <p>
+                Join us at Fitostyle and discover a new level of taste and health.
+                </p>
+                </div>
+                <a href="https://github.com/Dark-brains" target="_blank">
+                <div id="side-secondary-section-main-1-read-more-button">
+                    <p>
+                    CONTACT US
+                    </p>
+                </div>  
+                </a>                            
+            </div>
+        </section>
+        <section class="side-secondary-section">
+            <div id="side-secondary-section-main-2">   
+            </div>
+        </section>
+    </foreign>    
+    <footer>
+        © 2023 Fitostyle. All rights reserved.
+    </footer>
+    <script src="/static/main.js"></script>
+</body>
+</html>
