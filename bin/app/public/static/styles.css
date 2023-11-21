@@ -397,3 +397,30 @@ footer {
     background-color: rgba(110, 92, 77, 0.521);
     color: #fff;
 }
+
+.contact-social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 10px; 
+    margin-right: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    overflow: hidden;
+}
+.contact-social-icons a {
+    text-decoration: none;
+}
+
+.contact-social-icons {
+    margin-left: 250px; /* This will push the icons to the right */
+}
+
+#side-secondary-section-main-1-cu{ 
+    margin-left: 120px;
+    margin-top: -65px;
+    width: 100px;
+    height: 100px; 
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 20px; 
+}
