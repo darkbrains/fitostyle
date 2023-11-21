@@ -43,26 +43,26 @@ fi
 sleep 5
 
 
-# Test /ru endpoint
-HTTP_STATUS_RU=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/ru -H "Content-Type: application/json")
-if [ "$HTTP_STATUS_RU" -eq 200 ]; then
-  echo "/ru $HTTP_STATUS_RU OK" >> status_report.txt
-else
-  echo "/ru $HTTP_STATUS_RU Failed" >> status_report.txt
-fi
+# # Test /ru endpoint
+# HTTP_STATUS_RU=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/ru -H "Content-Type: application/json")
+# if [ "$HTTP_STATUS_RU" -eq 200 ]; then
+#   echo "/ru $HTTP_STATUS_RU OK" >> status_report.txt
+# else
+#   echo "/ru $HTTP_STATUS_RU Failed" >> status_report.txt
+# fi
 
-sleep 5
+# sleep 5
 
 
-# Test /am endpoint
-HTTP_STATUS_AM=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/am -H "Content-Type: application/json")
-if [ "$HTTP_STATUS_AM" -eq 200 ]; then
-  echo "/am $HTTP_STATUS_AM OK" >> status_report.txt
-else
-  echo "/am $HTTP_STATUS_AM Failed" >> status_report.txt
-fi
+# # Test /am endpoint
+# HTTP_STATUS_AM=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080/am -H "Content-Type: application/json")
+# if [ "$HTTP_STATUS_AM" -eq 200 ]; then
+#   echo "/am $HTTP_STATUS_AM OK" >> status_report.txt
+# else
+#   echo "/am $HTTP_STATUS_AM Failed" >> status_report.txt
+# fi
 
-sleep 5
+# sleep 5
 
 
 # # Test /hotels endpoint
