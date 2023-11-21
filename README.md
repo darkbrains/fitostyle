@@ -2,7 +2,7 @@
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/Dark-brains/fitostyle)
 [![GitHub](https://img.shields.io/badge/GitHub-Releases-green)](https://github.com/Dark-brains/fitostyle/releases)
-![GitHub Workflow Status](https://github.com/Dark-brains/fitostyle/actions/workflows/test.yaml/badge.svg?branch=dev)
+![GitHub Workflow Status](https://github.com/Dark-brains/fitostyle/actions/workflows/tests.yaml/badge.svg?branch=dev)
 
 ## Project Description
 
