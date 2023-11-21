@@ -531,7 +531,8 @@ footer {
         height: 100px; 
         text-decoration: none;
         overflow: hidden;
-        font-size: 20px; 
+        font-size: 16px;
+        text-align: left; 
     }
     #side-secondary-section-main-1-read-more-button {
         margin: 8px;
@@ -539,7 +540,7 @@ footer {
         margin-right: 80%;
         width: 20%;
         padding: 8px;
-        font-size: 10px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
