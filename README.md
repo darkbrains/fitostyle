@@ -1,8 +1,8 @@
 # FitoStyle
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/Dark-brains/fitostyle)
-[![GitHub](https://img.shields.io/badge/GitHub-Releases-green)](https://github.com/Dark-brains/fitostyle/releases)
-![GitHub Workflow Status](https://github.com/Dark-brains/fitostyle/actions/workflows/tests.yaml/badge.svg?branch=dev)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/Darkbrains/fitostyle)
+[![GitHub](https://img.shields.io/badge/GitHub-Releases-green)](https://github.com/Darkbrains/fitostyle/releases)
+![GitHub Workflow Status](https://github.com/Darkbrains/fitostyle/actions/workflows/tests.yaml/badge.svg?branch=dev)
 
 ## Project Description
 
