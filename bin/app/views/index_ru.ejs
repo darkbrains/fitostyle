@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitostyle</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles-ru.css"/>
+    <link rel="shortcut icon" type="image/png" href="/static/logo.webp"/>
+</head>
+<body>
+    <header>
+        <div class="language-selection">
+            <button onmouseover="showLanguageOptions()" onmouseout="hideLanguageOptions()">Language</button>
+            <div class="language-options" onmouseover="showLanguageOptions()" onmouseout="hideLanguageOptions()">
+              <button onclick="changeLanguage('ARM')">Հայ</button>
+              <button onclick="changeLanguage('RUS')">Рус</button>
+              <button onclick="changeLanguage('ENG')">Eng</button>
+            </div>
+        </div>
+        <a href="#">       
+        <div id="header-left-db">FITOSTYLE</div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#address">Адрес</a></li>
+                <li><a href="#menu">Меню</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <div id="welcome-section">
+        <div id="welcome-section-text">
+            Добро пожаловать в Fitostyle
+        </div>
+        <div id="diagonal-slice"></div> 
+    </div>    
+    <main>
+        <section id="text-01" class="side-section">
+            <h2>Добро пожаловать</h2>
+            <p>Добро пожаловать в FitoStyle, ваше особое место, где можно насладиться натуральными напитками и полезной выпечкой в самом сердце Армении.</p>
+        </section>
+        <section id="text-02" class="side-section">
+            <h2>О нас</h2>
+            <p>FitoStyle – это не просто кафе, это место, где каждый гость находит не только изысканный вкус, но и вдохновение для здорового образа жизни. Наши чаи, кофе с низким содержанием кофеина и разнообразная выпечка с низким содержанием сахара, изготовленные из трав, выращенных на прекрасных склонах Армянского нагорья, представляют собой идеальное сочетание вкуса и пользы для вашего организма.</p>
+        </section>
+        <section id="text-03" class="side-section">
+            <h2>Вкус и здоровье</h2>
+            <p>Мы стремимся создать не только приятное место развлечений, но и центр поддержки здорового образа жизни. Здесь вы найдете не только удовольствие вкуса, но и возможность ознакомиться с полезными свойствами нашей продукции, а также принять участие в интересных мероприятиях и мастер-классах по здоровому питанию.</p>
+        </section>
+    </main>
+    <foreign>       
+        <section class="side-secondary-section">            
+            <div id="side-secondary-section-main-1">
+                <p>
+                    Fitostyle
+                </p>
+                <div id="side-secondary-section-main-1-text">
+                <p>
+                    Присоединяйтесь к нам в «Фитостиле» и откройте новый уровень вкуса.
+                </p>
+                </div>
+                <a href="/menu" >
+                <div id="side-secondary-section-main-1-read-more-button">
+                    <p>
+                        Меню
+                    </p>
+                </div>
+                </a>
+                <div class="contact-social-icons">
+                    <a href="">
+                      <img src="/static/whatsapp.png" alt="WhatsApp">
+                    </a>
+                    <a href="">
+                      <img src="/static/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="">
+                      <img src="/static/telegram.png" alt="Telegram">
+                    </a>
+                    <a href="">
+                      <img src="/static/instagram.png" alt="Instagram">
+                    </a>  
+                </div>
+            <div id="side-secondary-section-main-1-cu">
+                <p>
+                    Контакты
+                </p>   
+            </div>                                         
+            </div>
+        </section>
+        <section class="side-secondary-section">
+            <div id="side-secondary-section-main-2">   
+            </div>
+        </section>
+    </foreign>    
+    <footer>
+        © 2023 Fitostyle. Все права защищены.
+    </footer>
+    <script src="/static/main.js"></script>
+</body>
+</html>
